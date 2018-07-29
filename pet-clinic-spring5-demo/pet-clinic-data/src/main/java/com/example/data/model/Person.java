@@ -1,4 +1,4 @@
-package com.example.petclinicspring5demo.model;
+package com.example.data.model;
 
 import lombok.Data;
 
