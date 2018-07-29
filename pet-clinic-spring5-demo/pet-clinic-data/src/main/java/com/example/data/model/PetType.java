@@ -1,9 +1,14 @@
 package com.example.data.model;
 
-import lombok.Data;
-
-@Data
 public class PetType extends BaseEntity {
 
     private String petType;
+
+    public String getPetType() {
+        return petType;
+    }
+
+    public void setPetType(String petType) {
+        this.petType = petType;
+    }
 }
